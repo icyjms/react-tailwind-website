@@ -16,7 +16,7 @@ export const Hero = () => {
             Fast, flexible financing for
           </p>
           <ReactTyped
-            className="mid:text-5xl sm:text-4xl text-xl font-bold pl-3"
+            className="mid:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-3"
             strings={['BTB', 'BTC', 'SASS']}
             typeSpeed={120}
             backSpeed={140}
@@ -27,6 +27,9 @@ export const Hero = () => {
           Monitor your data analytics to increase your revenue for BTB, BTC and
           SASS platforms.
         </p>
+        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+          Get Started
+        </button>
       </div>
     </div>
   );
