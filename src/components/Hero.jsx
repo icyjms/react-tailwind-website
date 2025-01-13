@@ -1,0 +1,28 @@
+// import React from 'react';
+import { ReactTyped } from 'react-typed';
+
+export const Hero = () => {
+  return (
+    <div className="text-white">
+      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+        <p className="uppercase text-[#00df9a] font-bold p-2">
+          Growing with data analytics
+        </p>
+        <h1 className="mid:text-7xl sm:text-6xl text-4xl font-bold mid:py-6">
+          Grow with data.
+        </h1>
+        <div>
+          <p className="mid:text-5xl sm:text-4xl text-xl font-bold">
+            fast, flexible financing for
+          </p>
+          <ReactTyped
+            strings={['BTB', 'BTC', 'SASS']}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
