@@ -11,17 +11,22 @@ export const Hero = () => {
         <h1 className="mid:text-7xl sm:text-6xl text-4xl font-bold mid:py-6">
           Grow with data.
         </h1>
-        <div>
+        <div className="flex justify-center items-center">
           <p className="mid:text-5xl sm:text-4xl text-xl font-bold">
-            fast, flexible financing for
+            Fast, flexible financing for
           </p>
           <ReactTyped
+            className="mid:text-5xl sm:text-4xl text-xl font-bold pl-3"
             strings={['BTB', 'BTC', 'SASS']}
             typeSpeed={120}
             backSpeed={140}
             loop
           />
         </div>
+        <p className="md:text-2xl text-xl font-bold text-gray-500">
+          Monitor your data analytics to increase your revenue for BTB, BTC and
+          SASS platforms.
+        </p>
       </div>
     </div>
   );
